@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.input-section{
+    padding: 30px 0;
+}
+
+.likes-section{
+    
+}
+
+.section-1{
+    background: rgba(26, 221, 195, 0.582)
+
+}
+
+.section-2{
+    text-align:center;
+    background: yellowgreen
+}
+
+.section-2 h1{
+    min-height: 38px;
+}

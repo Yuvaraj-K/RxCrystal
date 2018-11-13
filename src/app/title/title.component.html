@@ -1,0 +1,15 @@
+<div class="section-2">
+  <div *ngIf="post | async as p">
+    <h1>{{p.text}}</h1>
+    <h4>Votes : {{p.likes}}</h4>
+    <div class="likes-section">
+
+    <button (click)="Upvote()">Upvote</button>
+    <button (click)="Downvote()">Downvote</button>
+    <button (click)="Reset()">Reset</button>
+    </div>
+    <div class="input-section">
+    <input [(ngModel)]="text" type="text">
+    <button (click)="EditText()">Edit Title</button>
+    </div>
+</div>
